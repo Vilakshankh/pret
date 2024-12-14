@@ -8,7 +8,7 @@ export default function Home() {
       <StaticEmojiBackground />
       <div className="text-center px-4 sm:px-6 lg:px-8 z-10">
         <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold text-amber-900 mb-2">
-          Pret
+          pret
         </h1>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-amber-700 mb-6">
           meal prepping is so back
