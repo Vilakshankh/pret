@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"; // Import Shadcn Button
 import { Progress } from "@/components/ui/progress"; // Import Shadcn Progress
 import { quizData } from "../quizData"; // Import the questions and answers
 
-export default function foodQuiz() {
+export default function FoodQuiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [showResults, setShowResults] = useState<boolean>(false);

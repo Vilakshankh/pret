@@ -13,8 +13,8 @@ export default function Home() {
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-amber-700 mb-6">
           meal prepping is so back
         </h2>
-        <p className="text-xs sm:text-sm md:text-base text-amber-800 mb-8 max-w-3xl mx-auto">
-          We help you choose and decide what meal you&apos;re going to eat, over and over again till the end of time (2 days) and then what to eat after that.
+        <p className="text-xs sm:text-sm md:text-base text-amber-800 mb-8 max-w-xl mx-auto">
+          We help you decide what meal you&apos;re going to eat, over and over again till the end of time (2 days) and then what to eat after that.
         </p>
         <Button asChild size="lg" className="text-base sm:text-lg px-8 py-3 bg-black hover:bg-green-600 hover:text-white transition-colors duration-300">
           <Link href="/get-started">
