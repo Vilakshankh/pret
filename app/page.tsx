@@ -36,14 +36,14 @@ export default function Home() {
               <p className="text-xs uppercase tracking-wider">Batch No.</p>
               <p className="font-mono text-red-500">00012</p>
             </div>
-            <Link 
-              href="/get-started" 
-              className="border-r border-black p-4 group relative bg-black text-white hover:bg-green-600 transition-all duration-300"
+            <Button 
+              asChild 
+              className="border-r border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300"
             >
-              <span className="absolute inset-0 flex items-center justify-center">
+              <Link href="/get-started">
                 make my meal
-              </span>
-            </Link>
+              </Link>
+            </Button>
             <div className="p-4">
               <p className="text-xs uppercase tracking-wider">Time Est.</p>
               <p className="text-sm">2 Days</p>
