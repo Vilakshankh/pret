@@ -33,7 +33,7 @@ export default function NewUser() {
                   <br />I was too.
                   <br />Too tired to figure out what to cook?
                   <br />Want to prepare ahead of time?
-                  <br />We'll make it easy for you.
+                  <br />We&apos;ll make it easy for you.
                 </p>
               </div>
               <div className="flex justify-center">
@@ -41,7 +41,7 @@ export default function NewUser() {
                   onClick={() => setShowSolution(true)}
                   className="w-48 border border-black rounded-none h-auto bg-transparent text-black hover:bg-black hover:text-white transition-all duration-300 text-xs uppercase tracking-wider shadow-none py-3"
                 >
-                  I'm So Frikin Tired
+                  I&apos;m So Frikin Tired
                 </Button>
               </div>
             </>
@@ -56,9 +56,11 @@ export default function NewUser() {
                   <p className="text-sm tracking-[0.2em] leading-relaxed">
                     We take the ingredients:
                   </p>
-                  <p className="text-sm tracking-[0.2em] leading-relaxed text-red-500 whitespace-nowrap">
-                    Your Lifestyle + Your Food Preferences + Your Cooking Skills = Your Profile
-                  </p>
+                  <div className="overflow-x-auto">
+                    <p className="text-sm tracking-[0.2em] leading-relaxed text-red-500 whitespace-nowrap min-w-max">
+                      Your Lifestyle + Your Food Preferences + Your Cooking Skills = Your Profile
+                    </p>
+                  </div>
                 </div>
                 <div className="space-y-4">
                   <p className="text-sm tracking-[0.2em] leading-relaxed">
@@ -67,7 +69,7 @@ export default function NewUser() {
                   </p>
                   <p className="text-sm tracking-[0.2em] leading-relaxed">
                     We use your profile to create meals that you will be prepping
-                    including on what day you'll eat what.
+                    including on what day you&apos;ll eat what.
                   </p>
                   <p className="text-sm tracking-[0.2em] font-medium">
                     Ready?
@@ -80,7 +82,7 @@ export default function NewUser() {
                   className="w-48 border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none py-3"
                 >
                   <Link href="/new-user/profile">
-                    Let's Cook
+                    Let&apos;s Cook
                   </Link>
                 </Button>
               </div>

@@ -22,7 +22,7 @@ export default function Home() {
           SMALL BATCHES
         </div>
         <div className="absolute right-4 top-1/2 -translate-y-1/2 rotate-90 origin-right tracking-widest text-sm">
-          YOUR MOM'S COOKING
+          YOUR MOM&apos;S COOKING
         </div>
 
         {/* Main Content */}
