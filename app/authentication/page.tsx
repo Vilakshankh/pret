@@ -36,7 +36,7 @@ export default function Authentication() {
               className="w-48 border border-black rounded-none h-auto bg-transparent text-black hover:bg-black hover:text-white transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
             >
               <Link href="/returning-user">
-                Returning User
+                Alpha User
               </Link>
             </Button>
           </div>

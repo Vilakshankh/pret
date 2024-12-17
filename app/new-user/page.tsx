@@ -28,12 +28,22 @@ export default function NewUser() {
             <>
               {/* Problem Statement */}
               <div className="space-y-4">
-                <p className="text-sm tracking-[0.2em] leading-relaxed">
+                <p className="text-sm tracking-[0.1em] leading-relaxed">
                   Tired of having struggle meals after struggle meals?
-                  <br />I was too.
-                  <br />Too tired to figure out what to cook?
-                  <br />Want to prepare ahead of time?
-                  <br />We&apos;ll make it easy for you.
+                  <br />
+                  You know, the ones where cereal suddenly qualifies as dinner.
+                  
+                  <br /><br />
+                  Too exhausted to figure out what to cook?
+                  <br />
+                  
+                 
+                  Want to actually prepare ahead of time?
+                  <br />
+                  Somehow "I'll start on Sunday" always turns into "Eh, maybe next week."
+                  
+                  <br /><br />
+                  We get it. Life's too short for bad meals and last-minute panic cooking. Let's do something about it.
                 </p>
               </div>
               <div className="flex justify-center">
@@ -41,7 +51,7 @@ export default function NewUser() {
                   onClick={() => setShowSolution(true)}
                   className="w-48 border border-black rounded-none h-auto bg-transparent text-black hover:bg-black hover:text-white transition-all duration-300 text-xs uppercase tracking-wider shadow-none py-3"
                 >
-                  I&apos;m So Frikin Tired
+                  How It Works
                 </Button>
               </div>
             </>
@@ -50,41 +60,52 @@ export default function NewUser() {
               {/* Solution Statement */}
               <div className="space-y-6">
                 <div className="space-y-4">
-                  <p className="text-sm tracking-[0.2em] leading-relaxed">
-                    We help you choose and decide what meal you&apos;re going to eat, over and over again till the end of time (2 days) and then what to eat after that.
+                  <p className="text-sm tracking-[0.1em] leading-relaxed">
+                    <span className="font-bold">What we do:</span>
                   </p>
-                  <p className="text-sm tracking-[0.2em] leading-relaxed">
-                    We take the ingredients:
+                  <ol className="text-sm tracking-[0.1em] leading-relaxed list-decimal pl-6 space-y-2">
+                    <li>Plan Your Meals For The Week: Because staring into the fridge hoping for inspiration clearly isn't working.</li>
+                    <li>Create Your Cooking Schedule: So you can finally stop asking, "When am I even supposed to cook all this?"</li>
+                  </ol>
+                  <p className="text-sm tracking-[0.1em] leading-relaxed mt-4">
+                    <span className="font-bold">How it works:</span>
                   </p>
-                  <div className="overflow-x-auto">
-                    <p className="text-sm tracking-[0.2em] leading-relaxed text-red-500 whitespace-nowrap min-w-max">
-                      Your Lifestyle + Your Food Preferences + Your Cooking Skills = Your Profile
-                    </p>
-                  </div>
+                  <ol className="text-sm tracking-[0.1em] leading-relaxed list-decimal pl-6 space-y-2">
+                    <li>We learn about your lifestyle
+                    </li>
+                    <li>We build your personalized profile:
+                      <ul className="list-disc pl-6 mt-2 space-y-2">
+                        <li>A meal plan tailored to you.</li>
+                        <li>A prepping schedule that actually fits your life.</li>
+                      </ul>
+                    </li>
+                    <li>You're in control:
+                      <ul className="list-disc pl-6 mt-2">
+                        <li>Edit or customize your plan anytime.</li>
+                      </ul>
+                    </li>
+                  </ol>
+                  <p className="text-sm tracking-[0.1em] leading-relaxed mt-4">
+                    <span className="font-bold">Why it works:</span>
+                  </p>
+                  <ul className="text-sm tracking-[0.1em] leading-relaxed list-disc pl-6 space-y-2">
+                    <li>No more decision fatigue and those "What's for dinner?" crises.</li>
+                    <li>No more empty fridges on a random Tuesday.</li>
+                  </ul>
+                  <p className="text-sm tracking-[0.1em] leading-relaxed">
+                    Ready to stop overthinking meals?
+                  </p>
                 </div>
-                <div className="space-y-4">
-                  <p className="text-sm tracking-[0.2em] leading-relaxed">
-                    We use your profile to create a prepping schedule,
-                    you are free to edit it if you want manually.
-                  </p>
-                  <p className="text-sm tracking-[0.2em] leading-relaxed">
-                    We use your profile to create meals that you will be prepping
-                    including on what day you&apos;ll eat what.
-                  </p>
-                  <p className="text-sm tracking-[0.2em] font-medium">
-                    Ready?
-                  </p>
+                <div className="flex justify-center">
+                  <Button 
+                    asChild
+                    className="w-48 border border-black rounded-none h-auto bg-black text-white hover:bg-purple-500 transition-all duration-300 text-xs uppercase tracking-wider shadow-none py-3"
+                  >
+                    <Link href="/new-user/profile">
+                      Create Profile
+                    </Link>
+                  </Button>
                 </div>
-              </div>
-              <div className="flex justify-center">
-                <Button 
-                  asChild
-                  className="w-48 border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none py-3"
-                >
-                  <Link href="/new-user/profile">
-                    Let&apos;s Cook
-                  </Link>
-                </Button>
               </div>
             </>
           )}

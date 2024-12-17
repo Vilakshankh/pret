@@ -12,7 +12,7 @@ export default function Home() {
             className="bg-black text-white hover:bg-purple-600 transition-colors shadow-none text-xs uppercase tracking-wider"
           >
             <Link href="/returning-user">
-              Returning User
+              Alpha User
             </Link>
           </Button>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
 
         {/* Main Content */}
         <div className="text-center space-y-6">
-          <p className="text-sm tracking-[0.3em] uppercase">100% Natural</p>
+          
           
           <div className="space-y-2">
             <h1 className="text-5xl sm:text-6xl md:text-7xl tracking-widest font-bold uppercase">
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
 
           <p className="text-sm tracking-[0.2em] uppercase">
-            We help you decide what meal you&apos;re going to eat, every 2 days.
+            We help you decide what meals you&apos;re going to eat for the week.
           </p>
 
           {/* Info Box */}
@@ -58,7 +58,7 @@ export default function Home() {
             </Button>
             <div className="p-4">
               <p className="text-xs uppercase tracking-wider">Time Est.</p>
-              <p className="text-sm">2 Days</p>
+              <p className="font-mono text-red-500">2 Days</p>
             </div>
           </div>
         </div>
