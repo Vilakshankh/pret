@@ -1,11 +1,5 @@
 import Script from 'next/script'
-import { Cedarville_Cursive } from 'next/font/google'
 
-const cedarville = Cedarville_Cursive({ 
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-cedarville'
-})
 
 export default function WaitlistPage() {
   return (
@@ -24,7 +18,7 @@ export default function WaitlistPage() {
             </h1>
             <div className="h-5"></div>
             <p className="text-sm tracking-[0.2em] uppercase">
-              Join our waitlist so that you can be notified when we've launched!
+              Join our waitlist so that you can be notified when we&apos;ve launched!
             </p>
           </div>
 
