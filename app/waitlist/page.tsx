@@ -1,11 +1,14 @@
 import Script from 'next/script'
 import { Cedarville_Cursive } from 'next/font/google'
+import Link from 'next/link'
 
 const cedarville = Cedarville_Cursive({ 
   weight: '400',
   subsets: ['latin'],
   variable: '--font-cedarville'
 })
+
+
 
 
 export default function WaitlistPage() {
@@ -19,6 +22,8 @@ export default function WaitlistPage() {
 
       <div className="min-h-screen flex items-center justify-center bg-white px-4">
         <div className="w-full max-w-2xl mx-auto text-left space-y-6 p-8">
+
+          
           <div className="pl-4">
             <h1 className={`text-4xl sm:text-5xl tracking-widest font-bold ${cedarville.className}`}>
               Please Wait To Be Seated
