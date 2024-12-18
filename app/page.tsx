@@ -70,8 +70,8 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent>
                       <ol className="text-sm tracking-[0.1em] leading-relaxed list-decimal pl-6 space-y-2">
-                        <li>Plan Your Meals For The Week: Because staring into the fridge hoping for inspiration clearly isn&apos;t working.</li>
-                        <li>Create Your Cooking Schedule</li>
+                        <li>Plan your meals for the week (because staring into the fridge hoping for inspiration clearly isn't working)</li>
+                        <li>Create your cooking schedule</li>
                       </ol>
                     </AccordionContent>
                   </AccordionItem>
@@ -127,23 +127,15 @@ export default function Home() {
             </div>
         </div>
         <div className="flex justify-center">
-                  <Button 
-                    asChild 
-                    className="w-full border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
-                  >
-                    <Link href="/waitlist">
-                      New User
-                    </Link>
-                  </Button>
-                  <Button 
-                    asChild 
-                    className="w-full border border-black rounded-none h-auto bg-purple-600 text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
-                  >
-                    <Link href="/returning-user">
-                      Alpha User
-                    </Link>
-                  </Button>
-                </div>
+          <Button 
+            asChild 
+            className="w-full border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
+          >
+            <Link href="/waitlist">
+              Get Started
+            </Link>
+          </Button>
+        </div>
 
               </div>
             </div>
