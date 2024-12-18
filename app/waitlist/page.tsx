@@ -30,7 +30,7 @@ export default function WaitlistPage() {
             </h1>
             <div className="h-5"></div>
             <p className="text-sm tracking-[0.2em] uppercase">
-              Join my waitlist so that you can be notified when I&apos;ve finished it!
+              Join my waitlist so that you can be notified when I&apos;ts ready!
             </p>
           </div>
 
