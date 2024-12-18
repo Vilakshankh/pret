@@ -104,7 +104,8 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent>
                       <ul className="text-sm tracking-[0.1em] leading-relaxed list-disc pl-6 space-y-2">
-                        <li>No more decision fatigue and those &quot;What&apos;s for dinner?&quot; crises.</li>
+                        <li>No more decision fatigue.</li>
+                        
                         <li>No more empty fridges on a random Tuesday.</li>
                       </ul>
                     </AccordionContent>
