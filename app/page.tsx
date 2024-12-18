@@ -101,7 +101,7 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent>
                       <ol className="text-sm tracking-[0.1em] leading-relaxed list-decimal pl-6 space-y-2">
-                        <li>Plan Your Meals For The Week: Because staring into the fridge hoping for inspiration clearly isn't working.</li>
+                        <li>Plan Your Meals For The Week: Because staring into the fridge hoping for inspiration clearly isn&apos;t working.</li>
                         <li>Create Your Cooking Schedule</li>
                       </ol>
                     </AccordionContent>
@@ -120,7 +120,7 @@ export default function Home() {
                             <li>A prepping schedule that fits your life.</li>
                           </ul>
                         </li>
-                        <li>You're in control
+                        <li>You&apos;re in control
                           <ul className="list-disc pl-6 mt-2">
                             <li>Edit or customize your plan anytime.</li>
                           </ul>
@@ -135,10 +135,9 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent>
                       <ul className="text-sm tracking-[0.1em] leading-relaxed list-disc pl-6 space-y-2">
-                        <li>No more decision fatigue and those "What's for dinner?" crises.</li>
+                        <li>No more decision fatigue and those &quot;What&apos;s for dinner?&quot; crises.</li>
                         <li>No more empty fridges on a random Tuesday.</li>
                       </ul>
-
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
