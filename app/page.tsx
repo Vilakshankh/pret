@@ -70,8 +70,8 @@ export default function Home() {
                     </AccordionTrigger>
                     <AccordionContent>
                       <ol className="text-sm tracking-[0.1em] leading-relaxed list-decimal pl-6 space-y-2">
-                        <li>Plan your meals for the week (because staring into the fridge hoping for inspiration clearly isn't working)</li>
-                        <li>Create your cooking schedule</li>
+                      <li>Plan your meals for the week (because staring into the fridge hoping for inspiration clearly isn&apos;t working)</li>
+                      <li>Create your cooking schedule</li>
                       </ol>
                     </AccordionContent>
                   </AccordionItem>
