@@ -56,38 +56,7 @@ export default function Home() {
             We help you decide what meals you&apos;re going to eat for the week.
           </p>
 
-                  {/* Info Box */}
-        <div className="border border-black grid grid-cols-2">
-            <div className="border-r border-black p-4">
-              <p className="text-xs uppercase tracking-wider">Meals Prepared</p>
-              <p className="font-mono text-red-500">00012</p>
-            </div>
 
-
-            <div className="p-4">
-              <p className="text-xs uppercase tracking-wider">Best Before</p>
-              <p className="font-mono text-red-500">2 Days</p>
-            </div>
-        </div>
-        <div className="flex justify-center">
-                  <Button 
-                    asChild 
-                    className="w-full border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
-                  >
-                    <Link href="/new-user">
-                      New User
-                    </Link>
-                  </Button>
-                  <Button 
-                    asChild 
-                    className="w-full border border-black rounded-none h-auto bg-purple-600 text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
-                  >
-                    <Link href="/returning-user">
-                      Alpha User
-                    </Link>
-                  </Button>
-                </div>
-          <div className="h-16"></div>
 
 
 
@@ -141,7 +110,41 @@ export default function Home() {
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
-                
+
+
+                <div className="h-24"></div>
+                        {/* Info Box */}
+        <div className="border border-black grid grid-cols-2">
+            <div className="border-r border-black p-4">
+              <p className="text-xs uppercase tracking-wider">Meals Prepared</p>
+              <p className="font-mono text-red-500">00012</p>
+            </div>
+
+
+            <div className="p-4">
+              <p className="text-xs uppercase tracking-wider">Best Before</p>
+              <p className="font-mono text-red-500">2 Days</p>
+            </div>
+        </div>
+        <div className="flex justify-center">
+                  <Button 
+                    asChild 
+                    className="w-full border border-black rounded-none h-auto bg-black text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
+                  >
+                    <Link href="/waitlist">
+                      New User
+                    </Link>
+                  </Button>
+                  <Button 
+                    asChild 
+                    className="w-full border border-black rounded-none h-auto bg-purple-600 text-white hover:bg-green-600 transition-all duration-300 text-xs uppercase tracking-wider shadow-none"
+                  >
+                    <Link href="/returning-user">
+                      Alpha User
+                    </Link>
+                  </Button>
+                </div>
+
               </div>
             </div>
           </div>
