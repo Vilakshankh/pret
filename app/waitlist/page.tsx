@@ -1,6 +1,6 @@
 import Script from 'next/script'
 import { Cedarville_Cursive } from 'next/font/google'
-import Link from 'next/link'
+
 
 const cedarville = Cedarville_Cursive({ 
   weight: '400',
