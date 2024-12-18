@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Cedarville_Cursive } from 'next/font/google'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +13,12 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const cedarville = Cedarville_Cursive({ 
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-cedarville'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
